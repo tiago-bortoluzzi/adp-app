@@ -1,5 +1,6 @@
 // =========================================
 // Node.JS app for the ADP screening process
+// Tiago Bortoluzzi, 2022
 // =========================================
 
 // Function to fetch data from API
@@ -68,4 +69,5 @@ const runProcess = async () => {
   setTimeout(runProcess, 2000)
 }
 
+// Starts process
 runProcess()
